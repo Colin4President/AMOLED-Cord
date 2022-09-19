@@ -1066,3 +1066,18 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .panels-3wFtMD {
     background-color: var(--background-primary);
 }
+
+.wordmarkWindows-2dq6rw svg {
+  width: 0px;
+}
+
+.wordmarkWindows-2dq6rw::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://KATERGaming.github.io/Katerhub1TerminalTheme/svg/title.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 240px !important;
+  height: 14px !important;
+}
